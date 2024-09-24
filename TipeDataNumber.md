@@ -1,5 +1,8 @@
 ![image](https://github.com/user-attachments/assets/81754b2f-fc5e-497e-9823-4cf28e740382)
 ![image](https://github.com/user-attachments/assets/7daf19dd-5368-4187-a698-b7b380468827)
+![image](https://github.com/user-attachments/assets/72654c70-3d1c-47a6-a95d-7aa4b8f1b4a0)
+![image](https://github.com/user-attachments/assets/0ceb4248-069c-47cf-82a7-9a3a3a712f5e)
+
 
     package main
 
@@ -56,4 +59,4 @@
     fmt.Printf("Imaginary part of complex64: %f\n", imag(m))
     fmt.Printf("Real part of complex128: %f\n", real(n))
     fmt.Printf("Imaginary part of complex128: %f\n", imag(n))
-}
+    }
