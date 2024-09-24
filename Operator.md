@@ -1,16 +1,19 @@
-package main
+![image](https://github.com/user-attachments/assets/efa014c6-52c2-47fe-9a46-c01f6f027535)
 
-import (
-	"fmt"
-)
-
-func main() {
-	// Operator Aritmatika
-	var a, b float64
-	fmt.Print("Masukkan angka pertama: ")
-	fmt.Scan(&a)
-	fmt.Print("Masukkan angka kedua: ")
-	fmt.Scan(&b)
+ 
+ 	package main
+	
+	import (
+		"fmt"
+	)
+	
+	func main() {
+		// Operator Aritmatika
+		var a, b float64
+		fmt.Print("Masukkan angka pertama: ")
+		fmt.Scan(&a)
+		fmt.Print("Masukkan angka kedua: ")
+		fmt.Scan(&b)
 
 	fmt.Printf("Hasil Penjumlahan: %.2f\n", a+b)
 	fmt.Printf("Hasil Pengurangan: %.2f\n", a-b)
@@ -52,4 +55,4 @@ func main() {
 	fmt.Printf("Nilai num: %d\n", num)
 	fmt.Printf("Alamat num: %p\n", &num)
 	fmt.Printf("Nilai melalui pointer: %d\n", *ptr) // Dereference pointer
-}
+	}
