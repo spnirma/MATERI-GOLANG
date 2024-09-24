@@ -1,16 +1,17 @@
 ![image](https://github.com/user-attachments/assets/81754b2f-fc5e-497e-9823-4cf28e740382)
+![image](https://github.com/user-attachments/assets/7daf19dd-5368-4187-a698-b7b380468827)
 
-package main
+    package main
 
-import "fmt"
+    import "fmt"
 
-func main() {
-    // Integer types
-    a := int8(-128)                // menggunakan := dan cast ke int8
-    b := int16(-32768)             // int16
-    c := int32(-2147483648)        // int32
-    d := int64(-9223372036854775808) // int64
-    e := 2147483647                // otomatis jadi int (sesuai arsitektur)
+    func main() {
+        // Integer types
+        a := int8(-128)                // menggunakan := dan cast ke int8
+        b := int16(-32768)             // int16
+        c := int32(-2147483648)        // int32
+        d := int64(-9223372036854775808) // int64
+        e := 2147483647                // otomatis jadi int (sesuai arsitektur)
 
     // Unsigned integer types
     f := uint8(255)               // uint8 (alias byte)
